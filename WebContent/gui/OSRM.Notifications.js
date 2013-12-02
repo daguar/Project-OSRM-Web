@@ -53,10 +53,12 @@ init: function() {
 		// create structure to hold timer data
 		tooltips[id] = {};
 		// start timer
+		/*
 		tooltips[id]._timer = setTimeout(
 				function(_id){ return function(){OSRM.GUI._showTooltip(_id);}; }(id),
 				config[id]
 		);
+		*/
 		
 		// mark tooltip as pending
 		tooltips[id]._pending = true;
