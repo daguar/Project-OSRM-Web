@@ -1,1 +1,1 @@
-<?php include_once("WebContent/main.html"); ?>
+<?php echo "yeah"; ?>
