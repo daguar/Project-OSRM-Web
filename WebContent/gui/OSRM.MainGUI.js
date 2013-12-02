@@ -27,7 +27,7 @@ init: function() {
 	var main_group = new OSRM.GUIBoxGroup();
 	OSRM.G.main_handle = new OSRM.GUIBoxHandle("main", "left", "left:-5px;top:5px;", OSRM.GUI.beforeMainTransition, OSRM.GUI.afterMainTransition);
 	main_group.add( OSRM.G.main_handle );
-	main_group.select( OSRM.G.main_handle );
+	//main_group.select( OSRM.G.main_handle );
 	
 	// init additional boxes
 	var option_group = new OSRM.GUIBoxGroup();
