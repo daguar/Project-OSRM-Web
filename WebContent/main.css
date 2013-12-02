@@ -175,7 +175,7 @@ html, body
 {
 	width:410px;
 	top:5px;
-	bottom:25px;
+	/*bottom:25px;*/
 	left:5px;
 }
 #main-input
@@ -185,9 +185,13 @@ html, body
 }
 #main-output
 {
+/*
 	width:390px;
-	top:160px;			/* main-input.height+2*gui-box.margin+2*gui-box.padding */
+	top:160px;
 	bottom:0px;
+*/
+	width: 0;
+	height: 0;
 }
 
 
@@ -241,6 +245,9 @@ html, body
 	width: 100%;
 }
 
+#input-target {
+	visibility: hidden;
+}
 
 /* styles for main-input input-mask-options */
 #gui-engine-toggle
