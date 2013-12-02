@@ -918,18 +918,15 @@ html, body
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
+	display: block;
 	position: absolute;
-	top: 600px;
-	left: 100px;
+	bottom: 100px;
+	left: 50px;
 }
 #download-button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
-}
-#download-button:active {
-	position:relative;
-	top:1px;
 }
 

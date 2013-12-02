@@ -50,6 +50,8 @@ OSRM.init = function() {
  	
  	// finalize initialization of map
  	OSRM.Map.initFinally();
+
+ 	$("#download-button").on('click', HoodMapper.downloadCurrentRouteAsGeoJSON);
 };
 
 
