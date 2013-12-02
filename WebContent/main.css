@@ -931,3 +931,16 @@ html, body
 	background-color:#dfdfdf;
 }
 
+#title-bar {
+	background-color:#ededed;
+	position: absolute;
+	top: 30px;
+	right: 550px;
+	left: 550px;
+	text-align: center;
+	color: black;
+	font-family:arial;
+	font-size:54px;
+	font-weight:bold;
+	font-style:normal;
+}
