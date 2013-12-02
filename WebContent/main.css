@@ -935,12 +935,12 @@ html, body
 	background-color:#ededed;
 	position: absolute;
 	top: 30px;
-	right: 550px;
-	left: 550px;
+	right: 525px;
+	left: 525px;
 	text-align: center;
 	color: black;
 	font-family:arial;
-	font-size:54px;
+	font-size:42px;
 	font-weight:bold;
 	font-style:normal;
 }
