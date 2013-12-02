@@ -905,7 +905,7 @@ html, body
 	-moz-border-radius-bottomleft:6px;
 	border-bottom-left-radius:6px;
 	text-indent:0;
-	border:2px solid #dcdcdc;
+	border:2px solid black;
 	display:inline-block;
 	color:#777777;
 	font-family:arial;
@@ -918,6 +918,7 @@ html, body
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
+	color: black;
 	display: block;
 	position: absolute;
 	bottom: 100px;
